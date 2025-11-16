@@ -4,11 +4,11 @@ cold = "Make sure to wear a warm coat and a scarf."
 
 weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
-if str(weather) == "sunny":
+if weather == "sunny":
 	print(f"{sunny}")
-elif str(weather) == "rainy":
+elif weather == "rainy":
 	print(f"{rainy}")
-elif str(weather) == "cold":
+elif weather == "cold":
 	print(f"{cold}")
 else:
 	print("Sorry, I don't have recommendations for this weather.")
