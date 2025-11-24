@@ -22,7 +22,7 @@ def main():
             print('')
             for idx, x in enumerate(shopping_list):
                 print(f'{idx + 1}. {x}')
-            item = input('What item would you like to remove: ')
+            item = input('Enter the item to add: ')
 
             if item not in shopping_list:
                 print('Items could not be found in the shopping list')
