@@ -1,4 +1,5 @@
 -- alx_book_store.sql
+-- fix made ready to commit
 
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
